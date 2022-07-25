@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home work</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Append table</h1>
+    
+    <div class="table">
+    
+        <header>
+            <div class="block">
+                <input id = "inputName" type ="text" placeholder="vardas">
+                <button id="addelement">Pridėti</button>
+            </div>
+            <div class="block">
+                <input id = inputSName type ="text" placeholder="pavardė">
+                <button id="delfirst">Ištrinti pirmą</button>
+            </div>
+            <div class="block">
+                <input id = inputAge type="number" min="0" oninput="validity.valid||(value='')" placeholder="amžius">    
+                <button id ="dellast">Ištrinti paskutinį</button>
+            </div>
+        </header>
+
+        <table id = result>
+            <div class="title">
+                <p>VARDAS</p>
+                <p>PAVARDĖ</p>
+                <p>AMŽIUS</p>
+            </div>
+           <div id = myrow></div>         
+      </table>
+    
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
